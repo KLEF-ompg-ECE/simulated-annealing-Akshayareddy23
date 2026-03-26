@@ -191,3 +191,4 @@ class TestCodeModified:
         count = self.code.count("experiment_2")
         assert count >= 3, \
             f"Expected 3 experiment_2 plot saves in code, found {count}"
+
